@@ -59,7 +59,7 @@ function total() {
 //   }
 //   console.log(cart)
 //   return cart
-}
+//}
   
 
 function placeOrder(cardNumber) {
