@@ -45,20 +45,20 @@ function total() {
   return tot
 }
 
-function removeFromCart(item) {
-  var x = -1
+// function removeFromCart(item) {
+//   var x = -1
   
-  for(var i=0; i<cart.length; i++){
-    if(cart[i].itemName === item){
-      cart.splice(i, 1)
-      x = i
-    }
-  }
-  if(x === -1){
-    return "That item is not in your cart."
-  }
-  console.log(cart)
-  return cart
+//   for(var i=0; i<cart.length; i++){
+//     if(cart[i].itemName === item){
+//       cart.splice(i, 1)
+//       x = i
+//     }
+//   }
+//   if(x === -1){
+//     return "That item is not in your cart."
+//   }
+//   console.log(cart)
+//   return cart
 }
   
 
